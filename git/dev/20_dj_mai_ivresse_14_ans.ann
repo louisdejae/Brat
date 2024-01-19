@@ -1,0 +1,126 @@
+T1	Person 17 23	madame
+A1	Experience T1 Family
+T2	Person 35 50	médecin du SAMU
+A2	Experience T2 Healthcare_professional
+T3	Person 67 82	docteur DETOURY
+A3	Experience T3 Healthcare_professional
+T4	Person 101 112	votre fille
+A4	Hypothesis T4
+A5	Experience T4 Patient
+T5	Person 212 223	votre fille
+A6	Experience T5 Patient
+T6	Sign_Symptom 316 340	pas dans son état normal
+A7	Experience T6 Patient
+T7	Sign_Symptom 258 265	bizarre
+A8	Experience T7 Patient
+T8	Sign_Symptom 350 364	elle se plaint
+A9	Hypothesis T8
+A10	Experience T8 Patient
+T9	Sign_Symptom 405 427	elle parle bizarrement
+A11	Experience T9 Patient
+T10	Sign_Symptom 432 454	elle a du mal à parler
+A12	Experience T10 Patient
+T11	Sign_Symptom 494 546	elle bouge bien heu les deux bras et les deux jambes
+A13	Hypothesis T11
+A14	Experience T11 Patient
+A15	Negation T6
+T12	Sign_Symptom 557 580	elle marche bizarrement
+A16	Experience T12 Patient
+T13	Sign_Symptom 602 630	pas du tout comme d'habitude
+A17	Negation T13
+A18	Experience T13 Patient
+T14	Sign_Symptom 655 683	elle se plaint d'une douleur
+A19	Hypothesis T14
+A20	Experience T14 Patient
+T15	Person 697 708	votre fille
+A21	Experience T15 Patient
+T16	Temporal_Marker 946 967	quand je suis revenue
+A22	Temporality T16 Before
+T17	Sign_Symptom 765 816	elle a ses troubles là de la parole et de la marche
+A23	Experience T17 Patient
+R1	Temp_mark Arg1:T16 Arg2:T17	
+T18	Person 1133 1144	votre fille
+A24	Experience T18 Patient
+T19	Drug_chemicals 1222 1231	DOLIPRANE
+A25	Experience T19 Patient
+T20	Drug_chemicals 1186 1197	médicaments
+A26	Hypothesis T20
+A27	Experience T20 Patient
+T21	Drug_chemicals 1271 1280	DOLIPRANE
+A28	Experience T21 Patient
+T22	Disease 1309 1318	elle fume
+A29	Temporality T22 Before_overlap
+A30	Experience T22 Patient
+T23	Person 1319 1330	votre fille
+A31	Experience T23 Patient
+T24	Disease 1387 1396	elle fume
+A32	Temporality T24 Before_overlap
+A33	Experience T24 Patient
+T25	Person 1370 1386	votre fime fille
+A34	Experience T25 Patient
+T26	Disease 1423 1445	elle boit pas d'alcool
+A35	Temporality T26 Before_overlap
+A36	Hypothesis T26
+A37	Negation T26
+A38	Experience T26 Patient
+T27	Disease 1475 1497	elle boit pas d'alcool
+A39	Temporality T27 Before_overlap
+A40	Hypothesis T27
+A41	Negation T27
+A42	Experience T27 Patient
+T28	Drug_chemicals 1579 1588	bouteille
+T29	Drug_chemicals 1636 1645	bouteille
+A43	Hypothesis T29
+T30	Drug_chemicals 1668 1686	bouteille de vodka
+T31	Sign_Symptom 1714 1732	elle sent l'alcool
+A44	Hypothesis T31
+A45	Experience T31 Patient
+T32	Sign_Symptom 1765 1783	elle sent l'alcool
+A46	Experience T32 Patient
+T33	Sign_Symptom 2020 2046	elle s'est un peu endormie
+A47	Experience T33 Patient
+T34	Sign_Symptom 2090 2106	elle se réveille
+A48	Hypothesis T34
+A49	Experience T34 Patient
+T35	Sign_Symptom 2107 2118	elle répond
+A50	Hypothesis T35
+A51	Experience T35 Patient
+T36	Conduite 2068 2084	vous la stimulez
+T37	Conduite 2159 2183	vous lui secouez le bras
+T38	Sign_Symptom 2205 2216	elle répond
+A52	Experience T38 Patient
+T39	Sign_Symptom 2217 2230	elle s'endort
+A53	Experience T39 Patient
+T40	Sign_Symptom 2236 2247	elle répond
+A54	Experience T40 Patient
+T41	Sign_Symptom 2260 2275	elle se rendort
+A55	Experience T41 Patient
+T42	Geographic_Marker 2321 2332	à la maison
+T43	Temporal_Marker 2369 2382	première fois
+A56	Temporality T43 Before
+A57	Hypothesis T43
+T44	Sign_Symptom 2491 2512	elle boit de l'alcool
+A58	Hypothesis T44
+A59	Experience T44 Patient
+T45	Temporal_Marker 2513 2526	à chaque fois
+A60	Temporality T45 Before_overlap
+A61	Hypothesis T45
+R2	Temp_mark Arg1:T45 Arg2:T44	
+R3	Temp_mark Arg1:T43 Arg2:T44	
+T46	Conduite 2614 2643	l'emmener heu voir un médecin
+T47	Geographic_Marker 2689 2714	aux urgences pédiatriques
+T48	Conduite 2683 2714	aller aux urgences pédiatriques
+T49	Person 2768 2783	pédopsychologue
+A62	Experience T49 Healthcare_professional
+T50	Person 2790 2804	pédopsychiatre
+A63	Experience T50 Healthcare_professional
+T51	Conduite 2845 2880	vous devriez l'emmener aux urgences
+T52	Sign_Symptom 2910 2924	elle est folle
+A64	Hypothesis T52
+A65	Experience T52 Patient
+T53	Conduite 3178 3216	'emmener aux urgences heu pédiatriques
+T54	Geographic_Marker 3217 3233	les plus proches
+T55	Geographic_Marker 3237 3246	chez vous
+T56	Person 3295 3301	madame
+A66	Experience T56 Family
+T57	Geographic_Marker 1847 1858	à la maison

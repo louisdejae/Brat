@@ -1,0 +1,70 @@
+T1	Geographic_Marker 102 113	à la maison
+T2	Person 117 125	mon fils
+A1	Experience T2 Patient
+T3	Sign_Symptom 126 140	il s'est pendu
+A2	Experience T3 Patient
+T4	Person 168 175	médecin
+A3	Experience T4 Healthcare_professional
+T5	Person 228 235	médecin
+A4	Experience T5 Healthcare_professional
+T6	Conduite 249 268	les secours partent
+T7	Person 286 294	monsieur
+A5	Experience T7 Family
+T8	Geographic_Marker 403 414	à la maison
+A6	Experience T8 Patient
+T9	Geographic_Marker 467 478	à la maison
+T10	Temporal_Marker 491 512	il y a quinze minutes
+R1	Temp_mark Arg1:T10 Arg2:T3	
+T11	Sign_Symptom 535 540	pendu
+A7	Experience T11 Patient
+T12	Sign_Symptom 557 575	il était tout bleu
+A8	Experience T12 Patient
+T13	Person 597 604	médecin
+A9	Experience T13 Healthcare_professional
+T14	Person 655 663	médecins
+A10	Experience T14 Healthcare_professional
+T15	Person 737 749	votre enfant
+A11	Experience T15 Patient
+T16	Geographic_Marker 777 791	dans le jardin
+A12	Hypothesis T16
+A13	Experience T16 Patient
+T17	Sign_Symptom 901 926	il était devenu tout bleu
+A14	Experience T17 Patient
+T18	Sign_Symptom 944 954	il respire
+A15	Hypothesis T18
+A16	Experience T18 Patient
+T19	Sign_Symptom 969 989	il respire un un peu
+A17	Experience T19 Patient
+T20	Sign_Symptom 1018 1028	il respire
+A18	Experience T20 Patient
+T21	Sign_Symptom 1114 1130	il est conscient
+A19	Hypothesis T21
+A20	Experience T21 Patient
+T22	Sign_Symptom 1134 1150	il est conscient
+A21	Hypothesis T22
+A22	Experience T22 Patient
+T23	Sign_Symptom 1169 1185	il est conscient
+A23	Experience T23 Patient
+T24	Sign_Symptom 1186 1196	il respire
+A24	Experience T24 Patient
+T25	Sign_Symptom 1197 1213	il est conscient
+A25	Experience T25 Patient
+T26	Conduite 1240 1286	vous vous mettez à côté de lui vous l'allongez
+T27	Conduite 1297 1348	les médecins et les pompiers arrivent tout de suite
+T28	Person 1301 1309	médecins
+A26	Experience T28 Healthcare_professional
+T29	Person 1317 1325	pompiers
+A27	Experience T29 Healthcare_professional
+T30	Person 1400 1407	médecin
+A28	Hypothesis T30
+A29	Experience T30 Healthcare_professional
+T31	Person 1421 1428	médecin
+A30	Hypothesis T31
+A31	Experience T31 Healthcare_professional
+T32	Person 1441 1449	pompiers
+A32	Experience T32 Healthcare_professional
+T33	Person 1477 1484	médecin
+A33	Experience T33 Healthcare_professional
+T34	Person 1494 1502	pompiers
+A34	Experience T34 Healthcare_professional
+T35	Conduite 651 724	les médecins qui arrivent aussi hein également ils arrivent tout de suite

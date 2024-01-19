@@ -1,0 +1,122 @@
+T1	Person 57 63	madame
+A1	Experience T1 Family
+T2	Person 87 97	votre fils
+A2	Hypothesis T2
+A3	Experience T2 Patient
+T3	Sign_Symptom 116 131	qui s'est brûlé
+A4	Hypothesis T3
+A5	Experience T3 Patient
+T4	Sign_Symptom 247 261	il s'est brûlé
+A6	Experience T4 Patient
+T5	Sign_Symptom 370 378	son bras
+A7	Experience T5 Patient
+T6	Sign_Symptom 419 427	son bras
+T7	Sign_Symptom 394 402	son bras
+A8	Hypothesis T7
+A9	Experience T7 Patient
+T8	Conduite 592 619	l'emmener dans les urgences
+A10	Hypothesis T8
+T9	Geographic_Marker 607 619	les urgences
+T10	Geographic_Marker 634 646	les urgences
+T11	Sign_Symptom 707 715	brûlures
+T12	Geographic_Marker 751 763	aux urgences
+T13	Person 793 803	une équipe
+A11	Experience T13 Healthcare_professional
+T14	Geographic_Marker 824 833	sur place
+T15	Geographic_Marker 867 879	aux urgences
+T16	Sign_Symptom 899 904	brûlé
+A12	Experience T16 Patient
+T17	Person 905 915	mon enfant
+A13	Experience T17 Patient
+T18	Sign_Symptom 949 975	brûlé avec de l'eau chaude
+A14	Experience T18 Patient
+T19	Conduite 1000 1021	évalué par un médecin
+T20	Person 1014 1021	médecin
+A15	Experience T20 Healthcare_professional
+T21	Person 1168 1176	urgences
+A16	Experience T21 Healthcare_professional
+T22	Person 1181 1185	SAMU
+A17	Experience T22 Healthcare_professional
+T23	Sign_Symptom 1288 1315	brûlé au niveau de son bras
+A18	Experience T23 Patient
+T24	Temporal_Marker 1249 1262	première fois
+R1	Temp_mark Arg1:T24 Arg2:T23	
+T25	Geographic_Marker 1463 1475	aux urgences
+T26	Conduite 1448 1475	emmenez le aux aux urgences
+T27	Geographic_Marker 1519 1531	aux urgences
+T28	Conduite 1510 1532	l'amener aux urgences,
+T29	Person 1549 1559	mon enfant
+A19	Experience T29 Patient
+T30	Person 1572 1581	quelqu'un
+A20	Experience T30 Healthcare_professional
+T31	Conduite 1648 1670	l'emmener aux urgences
+T32	Geographic_Marker 1658 1670	aux urgences
+T33	Geographic_Marker 1716 1725	chez vous
+T34	Person 1739 1751	votre enfant
+A21	Experience T34 Patient
+T35	Conduite 1774 1826	amenez le aux urgences pédiatriques les plus proches
+T36	Geographic_Marker 1784 1809	aux urgences pédiatriques
+T37	Geographic_Marker 1810 1826	les plus proches
+T38	Geographic_Marker 1841 1853	les urgences
+T39	Geographic_Marker 1911 1923	à à domicile
+T40	Person 1901 1910	quelqu'un
+A22	Experience T40 Healthcare_professional
+T41	Person 1925 1943	une équipe du SAMU
+A23	Experience T41 Healthcare_professional
+T42	Person 1978 1988	mon enfant
+A24	Experience T42 Patient
+T43	Conduite 2044 2092	mettez le dans la voiture amenez le aux urgences
+T44	Geographic_Marker 2080 2092	aux urgences
+T45	Sign_Symptom 2271 2285	il s'est brûlé
+A25	Experience T45 Patient
+T46	Person 2306 2318	votre enfant
+A26	Experience T46 Patient
+T47	Person 2185 2191	madame
+A27	Experience T47 Family
+T48	Person 2299 2305	madame
+A28	Experience T48 Family
+T49	Person 2334 2340	madame
+A29	Experience T49 Family
+T50	Person 2341 2353	votre enfant
+A30	Experience T50 Patient
+T51	Person 2490 2496	madame
+A31	Experience T51 Family
+T52	Person 2498 2510	votre enfant
+A32	Experience T52 Patient
+T53	Sign_Symptom 2513 2536	une brûlure sur le bras
+A33	Experience T53 Patient
+T54	Conduite 2549 2578	il soit évalué par un médecin
+T55	Person 2571 2578	médecin
+A34	Experience T55 Healthcare_professional
+T56	Conduite 2607 2677	vous le mettiez dans votre voiture et que vous l'emmeniez aux urgences
+T57	Conduite 2679 2701	amenez le aux urgences
+T58	Geographic_Marker 2665 2677	aux urgences
+T59	Geographic_Marker 2689 2701	aux urgences
+T60	Geographic_Marker 2789 2801	aux urgences
+T61	Person 2880 2889	mon gosse
+A35	Experience T61 Patient
+T62	Sign_Symptom 2900 2919	en train de pleurer
+A36	Experience T62 Patient
+T63	Conduite 2956 2989	vous l'avez mis sous l'eau froide
+A37	Hypothesis T63
+T64	Sign_Symptom 2990 2997	le bras
+A38	Experience T64 Patient
+T65	Person 3001 3009	l'enfant
+A39	Experience T65 Patient
+T66	Conduite 3045 3061	commencez par ça
+T67	Conduite 3117 3169	il va év- va être évalué par un médecin aux urgences
+T68	Person 3149 3156	médecin
+A40	Experience T68 Healthcare_professional
+T69	Geographic_Marker 3157 3169	aux urgences
+T70	Geographic_Marker 3179 3191	aux urgences
+T71	Person 3266 3276	mon enfant
+A41	Experience T71 Patient
+T72	Person 3358 3366	l'enfant
+A42	Experience T72 Patient
+T73	Conduite 3371 3436	mettez le bras de l'enfant sous de l'eau ch- sous de l'eau froide
+T74	Sign_Symptom 3378 3397	le bras de l'enfant
+A43	Experience T74 Patient
+T75	Person 3389 3397	l'enfant
+A44	Experience T75 Patient
+T76	Conduite 3455 3518	vous le mettez dans votre voiture et vous l'amenez aux urgences
+T77	Geographic_Marker 3506 3518	aux urgences

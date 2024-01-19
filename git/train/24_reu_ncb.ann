@@ -1,0 +1,81 @@
+T1	Person 17 25	monsieur
+A1	Experience T1 Patient
+T2	Person 26 38	DIANE DOUPLE
+A2	Experience T2 Healthcare_professional
+T3	Person 47 62	médecin du SAMU
+A3	Experience T3 Healthcare_professional
+T4	Sign_Symptom 108 123	symptômes d'AVC
+A4	Hypothesis T4
+A5	Experience T4 Patient
+T5	Sign_Symptom 364 390	mon bras il il est bizarre
+A6	Experience T5 Patient
+T6	Sign_Symptom 441 452	bras gauche
+A7	Experience T6 Patient
+T7	Temporal_Marker 634 656	à treize heures trente
+A8	Temporality T7 Before_overlap
+R1	Temp_mark Arg1:T7 Arg2:T5	
+T8	Temporal_Marker 666 686	treize heures trente
+A9	Temporality T8 Before_overlap
+T9	Disease 701 719	problèmes de santé
+T10	Disease 747 765	problèmes de santé
+A10	Experience T10 Patient
+A11	Experience T9 Patient
+T11	Disease 831 838	diabète
+A12	Experience T11 Patient
+T12	Disease 854 861	tension
+A13	Experience T12 Patient
+A14	Hypothesis T9
+T13	Drug_chemicals 881 892	médicaments
+A15	Hypothesis T13
+A16	Experience T13 Patient
+T14	Drug_chemicals 1011 1023	l'ordonnance
+A17	Experience T14 Patient
+T15	Drug_chemicals 1078 1089	médicaments
+A18	Experience T15 Patient
+T16	Sign_Symptom 1285 1319	votre bras gauche il bouge plus là
+A19	Hypothesis T16
+A20	Experience T16 Patient
+T17	Sign_Symptom 1347 1365	la main bouge plus
+A21	Experience T17 Patient
+T18	Sign_Symptom 1460 1476	vous sentez bien
+A22	Hypothesis T18
+A23	Experience T18 Patient
+T19	Conduite 1392 1459	vous prenez la la main droite et que vous touchez le la main gauche
+T20	Drug_chemicals 1529 1540	paracétamol
+A24	Temporality T20 Overlap(default)
+A25	Experience T20 Patient
+T21	Geographic_Marker 1575 1586	à la maison
+T22	Person 1617 1623	madame
+A26	Experience T22 Healthcare_professional
+T23	Conduite 1654 1673	vous vous allongiez
+T24	Conduite 1681 1737	je vais envoyer les secours pour aller jusqu'à chez vous
+T25	Person 1697 1708	les secours
+A27	Experience T25 Healthcare_professional
+T26	Geographic_Marker 1728 1737	chez vous
+T27	Geographic_Marker 1839 1850	à l'hôpital
+A28	Experience T26 Patient
+A29	Experience T21 Patient
+T28	Drug_chemicals 1912 1922	une piqûre
+T29	Sign_Symptom 1931 1938	douleur
+A30	Experience T29 Patient
+A31	Hypothesis T28
+T30	Conduite 1965 1988	vous alliez à l'hôpital
+T31	Geographic_Marker 1979 1988	l'hôpital
+T32	Sign_Symptom 2156 2175	douleur de mon bras
+A32	Experience T32 Patient
+T33	Geographic_Marker 2063 2072	l'hôpital
+T34	Geographic_Marker 2206 2215	l'hôpital
+T35	Conduite 2243 2279	'il y ait un médecin qui vous évalue
+T36	Person 2256 2263	médecin
+A33	Experience T36 Healthcare_professional
+T37	Sign_Symptom 2286 2315	vous pouvez pas vous déplacer
+A34	Experience T37 Patient
+T38	Conduite 2337 2363	je vous envoie les secours
+T39	Person 2352 2363	les secours
+A35	Experience T39 Healthcare_professional
+T40	Geographic_Marker 2381 2390	chez vous
+A36	Experience T40 Patient
+T41	Conduite 2404 2435	il faut que vous vous allongiez
+T42	Conduite 2443 2484	vous gardiez votre téléphone près de vous
+T43	Person 2568 2574	madame
+A37	Experience T43 Healthcare_professional

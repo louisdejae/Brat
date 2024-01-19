@@ -1,0 +1,144 @@
+T1	Person 36 50	docteur BOCHIN
+A1	Experience T1 Healthcare_professional
+T2	Person 74 90	votre heu voisin
+A2	Experience T2 Patient
+T3	Sign_Symptom 108 113	COVID
+A3	Hypothesis T3
+T4	Person 149 155	madame
+A4	Experience T4 Healthcare_professional
+T5	Person 170 180	mon voisin
+A5	Experience T5 Patient
+A6	Hypothesis T2
+T6	Sign_Symptom 212 217	COVID
+A7	Experience T6 Patient
+A8	Experience T3 Patient
+T7	Geographic_Marker 240 251	à l'hôpital
+T8	Sign_Symptom 334 339	COVID
+A9	Experience T8 Patient
+A10	Hypothesis T8
+T9	Sign_Symptom 354 363	il tousse
+A11	Experience T9 Patient
+T10	Sign_Symptom 364 381	il a de la fièvre
+A12	Experience T10 Patient
+T11	Sign_Symptom 382 398	il a mal partout
+A13	Experience T11 Patient
+T12	Sign_Symptom 408 433	il est gêné pour respirer
+A14	Experience T12 Patient
+T13	Sign_Symptom 438 466	ça fait mal quand il respire
+A15	Experience T13 Patient
+T14	Sign_Symptom 471 488	il a de la fièvre
+A16	Experience T14 Patient
+T15	Sign_Symptom 494 507	il a le COVID
+A17	Experience T15 Patient
+T16	Sign_Symptom 508 536	il a contaminé tout le monde
+A18	Experience T16 Patient
+T17	Person 523 536	tout le monde
+A19	Experience T17 Other
+T18	Person 590 599	quelqu'un
+A20	Experience T18 Other
+T19	Sign_Symptom 610 614	test
+A21	Hypothesis T19
+A22	Experience T19 Patient
+T20	Sign_Symptom 651 655	test
+A23	Hypothesis T20
+A24	Experience T20 Patient
+T21	Sign_Symptom 687 692	tests
+A25	Negation T21
+A26	Experience T21 Patient
+T22	Sign_Symptom 721 726	tests
+A27	Negation T22
+A28	Experience T22 Patient
+T23	Temporal_Marker 817 831	trois semaines
+A29	Temporality T23 After
+R1	Temp_mark Arg1:T23 Arg2:T22	
+T24	Temporal_Marker 841 856	plusieurs jours
+A30	Temporality T24 After
+R2	Temp_mark Arg1:T24 Arg2:T22	
+T25	Sign_Symptom 957 979	il a du mal à respirer
+A31	Hypothesis T25
+A32	Experience T25 Patient
+T26	Temporal_Marker 1006 1035	depuis le début de la semaine
+A33	Temporality T26 Before_overlap
+A34	Experience T26 Patient
+R3	Temp_mark Arg1:T26 Arg2:T25	
+T27	Temporal_Marker 1058 1068	cinq jours
+A35	Temporality T27 Before_overlap
+A36	Experience T27 Patient
+A37	Hypothesis T27
+T28	Sign_Symptom 1076 1093	il a de la fièvre
+A38	Hypothesis T28
+A39	Experience T28 Patient
+T29	Sign_Symptom 1104 1126	il a du mal à respirer
+A40	Hypothesis T29
+A41	Experience T29 Patient
+R4	Temp_mark Arg1:T27 Arg2:T28	
+R5	Temp_mark Arg1:T27 Arg2:T29	
+T30	Sign_Symptom 1174 1183	il tousse
+A42	Experience T30 Patient
+R6	Temp_mark Arg1:T27 Arg2:T30	
+T31	Sign_Symptom 1202 1215	il a le COVID
+A43	Experience T31 Patient
+T32	Sign_Symptom 1371 1386	il respire vite
+A44	Hypothesis T32
+A45	Experience T32 Patient
+T33	Sign_Symptom 1413 1435	il a du mal à respirer
+A46	Experience T33 Patient
+T34	Sign_Symptom 1436 1451	il respire vite
+A47	Hypothesis T34
+A48	Experience T34 Patient
+T35	Sign_Symptom 1514 1527	il a le COVID
+A49	Experience T35 Patient
+T36	Person 1588 1598	sa famille
+A50	Experience T36 Family
+T37	Person 1614 1623	le voisin
+A51	Experience T37 Other
+T38	Person 1633 1643	sa famille
+A52	Experience T38 Family
+T39	Person 1692 1703	le monsieur
+A53	Experience T39 Patient
+T40	Sign_Symptom 1809 1837	il avait du mal à à respirer
+A54	Experience T40 Patient
+T41	Sign_Symptom 1924 1949	il arrivait bien à parler
+A55	Hypothesis T41
+A56	Experience T41 Patient
+T42	Sign_Symptom 1960 1975	il parlait bien
+A57	Experience T42 Patient
+T43	Sign_Symptom 2007 2029	'il avait de la fièvre
+A58	Experience T43 Patient
+T44	Sign_Symptom 2032 2052	'il avait de la toux
+A59	Experience T44 Patient
+T45	Sign_Symptom 2056 2082	il avait du mal à respirer
+A60	Experience T45 Patient
+T46	Sign_Symptom 2107 2129	il doit avoir le COVID
+A61	Experience T46 Patient
+T47	Person 2133 2141	monsieur
+A62	Experience T47 Patient
+T48	Conduite 2435 2471	il y a un médecin qui va se déplacer
+T49	Temporal_Marker 2477 2492	dans la journée
+A63	Temporality T49 After
+T50	Conduite 2493 2517	pour heu venir l'évaluer
+T51	Person 2417 2424	médecin
+A64	Experience T51 Healthcare_professional
+T52	Geographic_Marker 2711 2728	dans la résidence
+T53	Geographic_Marker 2689 2707	dans l'appartement
+A65	Experience T53 Patient
+A66	Experience T52 Other
+T54	Conduite 2823 2863	le médecin qui va qui va venir l'évaluer
+T55	Person 2826 2833	médecin
+A67	Experience T55 Patient
+T56	Person 2909 2915	madame
+A68	Experience T56 Healthcare_professional
+T57	Geographic_Marker 2958 2972	dans sa maison
+A69	Experience T57 Patient
+T58	Conduite 2998 3045	il y a le médecin qui va qui va venir l'évaluer
+T59	Person 3008 3015	médecin
+A70	Experience T59 Healthcare_professional
+T60	Conduite 3177 3208	le médecin il viendra l'évaluer
+T61	Person 3180 3187	médecin
+A71	Experience T61 Healthcare_professional
+T62	Person 3400 3408	monsieur
+A72	Experience T62 Other
+T63	Person 3287 3296	quelqu'un
+A73	Experience T63 Healthcare_professional
+T64	Geographic_Marker 2798 2812	dans sa maison
+A74	Experience T64 Patient

@@ -1,0 +1,53 @@
+T1	Person 22 38	docteur RICHARDO
+A1	Experience T1 Healthcare_professional
+T2	Sign_Symptom 72 78	le feu
+A2	Hypothesis T2
+A3	Experience T2 Patient
+T3	Person 84 95	votre frère
+A4	Hypothesis T3
+A5	Experience T3 Patient
+T4	Person 40 44	vous
+A6	Experience T4 Family
+T5	Geographic_Marker 258 264	en bas
+T6	Geographic_Marker 79 95	chez votre frère
+A8	Hypothesis T6
+T7	Geographic_Marker 224 230	en bas
+T8	Person 248 252	vous
+A7	Experience T8 Family
+T9	Sign_Symptom 284 290	le feu
+A9	Hypothesis T9
+A10	Experience T9 Patient
+T10	Geographic_Marker 729 747	dans l'appartement
+A11	Hypothesis T10
+T11	Person 822 831	mon frère
+A12	Experience T11 Patient
+T12	Conduite 980 1002	on envoie les pompiers
+T13	Temporal_Marker 1003 1016	tout de suite
+A13	Temporality T13 Overlap(default)
+T14	Conduite 1026 1044	vous restez en bas
+T15	Conduite 1147 1168	les pompiers arrivent
+T16	Person 449 453	vous
+A14	Experience T16 Family
+T18	Person 792 796	vous
+A16	Experience T18 Family
+T19	Person 932 936	vous
+A17	Experience T19 Family
+T20	Person 960 964	vous
+A18	Experience T20 Family
+T21	Person 1026 1030	vous
+A19	Experience T21 Family
+T22	Conduite 932 950	vous restez en bas
+T23	Conduite 960 978	vous restez en bas
+T24	Person 1089 1093	vous
+A20	Experience T24 Family
+T25	Person 1127 1131	vous
+A21	Experience T25 Family
+T26	Conduite 1127 1145	vous restez en bas
+T27	Conduite 1089 1113	vous l'attendez comme ça
+T28	Sign_Symptom 528 531	feu
+A22	Experience T28 Patient
+T29	Sign_Symptom 580 583	feu
+A23	Experience T29 Patient
+T30	Conduite 656 674	vous restez en bas
+T31	Person 656 660	vous
+A24	Experience T31 Family

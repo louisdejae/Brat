@@ -1,0 +1,96 @@
+T1	Person 38 53	docteur DETOURY
+A1	Experience T1 Healthcare_professional
+T2	Person 20 26	madame
+A2	Experience T2 Family
+T3	Person 140 148	ma femme
+A3	Experience T3 Patient
+T4	Person 161 172	votre femme
+A4	Experience T4 Patient
+T5	Person 235 246	votre femme
+A5	Experience T5 Patient
+T6	Sign_Symptom 265 292	elle a pris des médicaments
+A6	Experience T6 Patient
+T7	Sign_Symptom 296 323	elle a pris des médicaments
+A7	Experience T7 Patient
+T8	Sign_Symptom 328 357	je la trouve pas bien du tout
+A8	Experience T8 Patient
+T9	Person 389 396	médecin
+A9	Experience T9 Healthcare_professional
+T10	Drug_chemicals 281 292	médicaments
+A10	Experience T10 Patient
+T11	Drug_chemicals 466 476	médicament
+A11	Hypothesis T11
+A12	Experience T11 Patient
+T12	Person 489 495	madame
+A13	Experience T12 Patient
+T13	Drug_chemicals 522 533	médicaments
+A14	Experience T13 Patient
+T14	Sign_Symptom 542 566	elle est un peu déprimée
+A15	Experience T14 Patient
+T15	Drug_chemicals 640 649	LORAZEPAM
+A16	Experience T15 Patient
+T16	Drug_chemicals 698 716	autres médicaments
+A17	Hypothesis T16
+A18	Experience T16 Patient
+T17	Geographic_Marker 803 814	à la maison
+A19	Experience T17 Patient
+T18	Sign_Symptom 832 857	elle est pas bien du tout
+A20	Experience T18 Patient
+T19	Sign_Symptom 858 875	elle est pas bien
+A21	Experience T19 Patient
+T20	Sign_Symptom 924 941	elle est pas bien
+A22	Experience T20 Patient
+T21	Sign_Symptom 962 979	elle est pas bien
+A23	Experience T21 Patient
+T22	Person 980 986	madame
+A24	Experience T22 Patient
+T23	Sign_Symptom 996 1015	'elle est réveillée
+A25	Hypothesis T23
+A26	Experience T23 Patient
+T24	Sign_Symptom 1026 1048	elle est pas réveillée
+A27	Negation T24
+A28	Experience T24 Patient
+T25	Sign_Symptom 1057 1066	elle dort
+A29	Experience T25 Patient
+T26	Conduite 1088 1104	vous la stimulez
+T27	Conduite 1111 1127	vous la stimulez
+T28	Sign_Symptom 1138 1154	elle vous répond
+A30	Hypothesis T28
+A31	Experience T28 Patient
+T29	Sign_Symptom 1175 1186	elle grogne
+A32	Experience T29 Patient
+T30	Sign_Symptom 1196 1207	elle grogne
+A33	Experience T30 Patient
+T31	Conduite 1300 1328	on va vous envoyer de l'aide
+T32	Person 1293 1299	madame
+A34	Experience T32 Family
+T33	Geographic_Marker 1439 1450	à la maison
+A35	Experience T33 Patient
+T34	Sign_Symptom 1461 1478	elle est allongée
+A36	Experience T34 Patient
+T35	Sign_Symptom 1479 1495	elle dort un peu
+A37	Experience T35 Patient
+T36	Sign_Symptom 1499 1510	elle grogne
+A38	Experience T36 Patient
+T37	Sign_Symptom 1520 1531	elle grogne
+A39	Experience T37 Patient
+T38	Disease 1554 1597	elle est suivie dans un hôpital particulier
+A40	Hypothesis T38
+T39	Geographic_Marker 1578 1585	hôpital
+T40	Disease 1626 1684	elle est suivie dans un hôpital heu pour heu sa dépression
+A41	Hypothesis T40
+T41	Geographic_Marker 1650 1657	hôpital
+T42	Disease 1729 1762	elle a un psychiatre heu en ville
+A42	Experience T42 Patient
+A43	Experience T40 Patient
+A44	Experience T38 Patient
+T43	Conduite 1776 1803	je vous envoie les pompiers
+T44	Sign_Symptom 1943 1952	elle dort
+A45	Experience T44 Patient
+T45	Conduite 1996 2029	vous pouvez la mettre sur le côté
+T46	Conduite 2048 2082	vous pouvez l'allonger sur le côté
+T47	Conduite 2086 2154	les pompiers arrivent tout de suite et ils vont la prendre en charge
+T48	Person 2090 2098	pompiers
+A46	Experience T48 Healthcare_professional
+T49	Person 2234 2240	madame
+A47	Experience T49 Family

@@ -1,0 +1,155 @@
+T1	Person 17 25	monsieur
+A1	Experience T1 Family
+T2	Person 39 51	DIANE JOUCLA
+A2	Experience T2 Healthcare_professional
+T3	Person 63 78	médecin du SAMU
+A3	Experience T3 Healthcare_professional
+T4	Person 103 108	femme
+A4	Experience T4 Patient
+T5	Person 205 213	monsieur
+A5	Experience T5 Healthcare_professional
+T6	Person 229 234	femme
+A6	Experience T6 Family
+T7	Person 271 279	mon mari
+A7	Experience T7 Patient
+T8	Person 355 365	votre mari
+A8	Experience T8 Patient
+T9	Person 366 372	madame
+A9	Experience T9 Family
+T10	Temporal_Marker 388 400	dix huit ans
+T11	Sign_Symptom 445 453	vertiges
+T12	Temporal_Marker 504 527	quand il s'est réveillé
+T13	Sign_Symptom 608 616	vertiges
+T14	Sign_Symptom 119 127	vertiges
+A10	Hypothesis T14
+A11	Hypothesis T1
+A12	Hypothesis T4
+A13	Temporality T12 Before
+R1	Temp_mark Arg1:T12 Arg2:T11	
+T15	Disease 644 662	problèmes de santé
+A14	Hypothesis T15
+A15	Experience T15 Patient
+T16	Person 663 673	votre mari
+A16	Experience T16 Patient
+T17	Disease 861 892	infection de de de de l'oreille
+A17	Temporality T17 Before
+A18	Experience T17 Patient
+T18	Disease 944 977	il s'était coupé heu sur l'orteil
+A19	Temporality T18 Before
+A20	Experience T18 Patient
+T19	Disease 1077 1097	problème à l'oreille
+A21	Temporality T19 Before
+A22	Hypothesis T19
+A23	Experience T19 Patient
+T20	Sign_Symptom 1321 1329	il vomit
+A24	Experience T20 Patient
+T21	Sign_Symptom 1380 1390	il a vomit
+A26	Experience T21 Patient
+T22	Temporal_Marker 1433 1450	trois quatre fois
+R2	Temp_mark Arg1:T22 Arg2:T21	
+T23	Sign_Symptom 1500 1508	vertiges
+A27	Experience T23 Patient
+T24	Sign_Symptom 1529 1541	il parle pas
+A28	Experience T24 Patient
+T25	Sign_Symptom 1542 1566	il est en train de vomir
+A29	Experience T25 Patient
+T26	Temporal_Marker 1579 1584	avant
+A30	Temporality T26 Before
+A31	Hypothesis T26
+R3	Temp_mark Arg1:T26 Arg2:T25	
+T27	Sign_Symptom 1615 1637	il s'est cogné la tête
+A32	Experience T27 Patient
+A34	Experience T14 Patient
+A35	Hypothesis T27
+T29	Person 1708 1718	votre mari
+A36	Experience T29 Patient
+T30	Sign_Symptom 1719 1737	il a mal à la tête
+A38	Experience T30 Patient
+T31	Temporal_Marker 1738 1753	depuis ce matin
+A39	Temporality T31 Before_overlap
+R4	Temp_mark Arg1:T31 Arg2:T30	
+T32	Sign_Symptom 1754 1777	il a la tête qui tourne
+A40	Experience T32 Patient
+T33	Sign_Symptom 1782 1791	il a vomi
+A37	Experience T33 Patient
+T34	Sign_Symptom 1808 1830	il a pas mal à la tête
+A41	Negation T34 Négation
+A42	Experience T34 Patient
+A43	Hypothesis T30
+A44	Hypothesis T32
+A45	Hypothesis T33
+A46	Hypothesis T31
+T35	Sign_Symptom 1846 1868	il a pas mal à la tête
+A47	Negation T35 Négation
+A48	Experience T35 Patient
+T36	Sign_Symptom 1884 1892	vertiges
+A49	Experience T36 Patient
+T37	Sign_Symptom 1956 1961	vomir
+A50	Experience T37 Patient
+T38	Conduite 1991 2023	il consulte son médecin traitant
+T39	Conduite 2050 2084	l'emmener chez le médecin traitant
+A51	Hypothesis T39
+T40	Sign_Symptom 2162 2179	il vomit toujours
+A52	Experience T40 Patient
+T41	Sign_Symptom 2217 2225	il vomit
+A53	Experience T41 Patient
+T42	Sign_Symptom 2252 2260	il vomit
+A54	Experience T42 Patient
+T43	Sign_Symptom 2261 2274	il est normal
+A55	Hypothesis T43
+A56	Experience T43 Patient
+T44	Sign_Symptom 2293 2316	il a juste des vertiges
+A57	Experience T44 Patient
+T45	Conduite 2367 2401	il aille voir son médecin traitant
+T46	Conduite 2422 2459	vous l'emmeniez chez chez son médecin
+T47	Conduite 2739 2778	il aille consulter son médecin traitant
+T48	Conduite 2887 2905	il voit un médecin
+T49	Sign_Symptom 2934 2942	il vomit
+A58	Experience T49 Patient
+T50	Person 3564 3570	madame
+A59	Experience T50 Family
+T51	Person 3459 3475	médecin traitant
+A60	Experience T51 Healthcare_professional
+T52	Temporal_Marker 3328 3339	aujourd'hui
+A61	Hypothesis T52
+T53	Temporal_Marker 3350 3361	aujourd'hui
+T54	Person 3031 3047	médecin traitant
+A62	Experience T54 Healthcare_professional
+T55	Person 3258 3274	médecin traitant
+A63	Experience T55 Healthcare_professional
+T56	Temporal_Marker 3275 3286	aujourd'hui
+T57	Person 2898 2905	médecin
+A64	Experience T57 Healthcare_professional
+T58	Person 2762 2778	médecin traitant
+A65	Experience T58 Healthcare_professional
+T59	Person 2385 2401	médecin traitant
+A66	Experience T59 Healthcare_professional
+T60	Person 2452 2459	médecin
+A67	Experience T60 Healthcare_professional
+T61	Person 2068 2084	médecin traitant
+A68	Experience T61 Healthcare_professional
+T62	Person 2007 2023	médecin traitant
+A69	Experience T62 Healthcare_professional
+T63	Temporal_Marker 1638 1649	aujourd'hui
+A70	Hypothesis T63
+R5	Temp_mark Arg1:T63 Arg2:T27	
+T64	Temporal_Marker 1407 1422	depuis ce matin
+A71	Temporality T64 Before_overlap
+A72	Hypothesis T64
+R6	Temp_mark Arg1:T64 Arg2:T21	
+T65	Sign_Symptom 1468 1485	parle normalement
+A73	Hypothesis T65
+A74	Experience T65 Patient
+A33	Temporality T15 Before
+T28	Temporal_Marker 1173 1193	quand il était petit
+R7	Temp_mark Arg1:T28 Arg2:T19	
+T66	Geographic_Marker 2060 2084	chez le médecin traitant
+A25	Temporality T66 After
+A75	Hypothesis T66
+A76	Experience T66 Patient
+T67	Geographic_Marker 2443 2459	chez son médecin
+A77	Temporality T67 After
+A78	Experience T67 Patient
+T68	Geographic_Marker 3023 3047	chez le médecin traitant
+A79	Temporality T68 After
+A80	Experience T68 Patient

@@ -1,0 +1,62 @@
+T1	Person 32 38	madame
+A1	Experience T1 Healthcare_professional
+T2	Person 88 122	docteur DAMANI, médecin régulateur
+A2	Experience T2 Healthcare_professional
+T3	Person 143 149	témoin
+A3	Experience T3 Other
+A4	Hypothesis T3
+T4	Sign_Symptom 160 168	accident
+A5	Hypothesis T4
+T5	Person 196 205	quelqu'un
+A6	Experience T5 Patient
+T6	Sign_Symptom 234 242	accident
+A7	Experience T6 Patient
+T7	Person 246 264	un type en scooter
+A8	Experience T7 Patient
+T8	Sign_Symptom 348 362	il s'est cogné
+A9	Hypothesis T8
+A10	Experience T8 Patient
+T9	Sign_Symptom 416 439	il s'est pris un camion
+A11	Experience T9 Patient
+T10	Sign_Symptom 449 472	il s'est pris un camion
+A12	Experience T10 Patient
+T11	Geographic_Marker 526 561	proche heu de du lieu de l'accident
+A13	Hypothesis T11
+A14	Experience T11 Other
+T12	Geographic_Marker 543 561	lieu de l'accident
+T13	Geographic_Marker 587 602	sur le trottoir
+A15	Experience T13 Other
+T14	Temporal_Marker 655 672	y a trois minutes
+R1	Temp_mark Arg1:T14 Arg2:T10	
+T15	Person 691 703	le chauffeur
+A16	Experience T15 Patient
+T16	Sign_Symptom 750 758	il bouge
+A17	Hypothesis T16
+A18	Experience T16 Patient
+T17	Sign_Symptom 778 786	il bouge
+A19	Hypothesis T17
+A20	Experience T17 Patient
+T18	Sign_Symptom 809 826	je l'ai vu bouger
+A21	Experience T18 Patient
+T19	Sign_Symptom 859 887	il a essayé de de se relever
+A22	Experience T19 Patient
+T20	Sign_Symptom 918 933	il roulait vite
+A23	Hypothesis T20
+A24	Experience T20 Patient
+T21	Sign_Symptom 982 997	vitesse adaptée
+A25	Experience T21 Patient
+T22	Conduite 1082 1103	approchez vous de lui
+T23	Conduite 1371 1422	vous approcher de lui voir si il est bien conscient
+A26	Hypothesis T23
+A27	Hypothesis T22
+T24	Sign_Symptom 1649 1681	il a essayé mais il a pas réussi
+A28	Experience T24 Patient
+T25	Sign_Symptom 1606 1623	il s'était relevé
+A29	Hypothesis T25
+A30	Experience T25 Patient
+T26	Conduite 1710 1765	on va envoyer heu une équipe heu une équipe de pompiers
+T27	Conduite 1802 1831	vous pouvez pas aller le voir
+A31	Hypothesis T27
+A32	Negation T27
+A33	Negation T24
+T28	Conduite 1910 1954	es pompiers qui vont se qui vont se déplacer
